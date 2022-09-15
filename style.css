@@ -44,6 +44,17 @@ a:hover {
     padding-right: 0;
 }
 
+.bloc-2__quote {
+    font-size: 22px;
+    line-height: 1.2em;
+    font-style: italic;
+}
+
+.bloc-2__quote span {
+    font-style: normal;
+    font-size: 20px;
+}
+
 .bloc-lg {
     padding: 100px 50px;
 }
@@ -436,8 +447,7 @@ nav .caret {
 }
 
 .mg-md {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin: 10px 0 20px 0;
 }
 
 .mg-lg {
@@ -673,7 +683,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -703,10 +713,12 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
