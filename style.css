@@ -10,7 +10,7 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
+
 }
 
 a:hover {
@@ -25,6 +25,13 @@ a:hover {
     width: 100%;
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
+}
+
+.contrast-bg {
+    background-color: #333333;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .bloc {
@@ -42,6 +49,17 @@ a:hover {
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
+}
+
+.bloc-2__quote {
+    font-size: 22px;
+    line-height: 1.2em;
+    font-style: italic;
+}
+
+.bloc-2__quote span {
+    font-style: normal;
+    font-size: 20px;
 }
 
 .bloc-lg {
@@ -133,7 +151,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255, .8);
 }
 
 .d-bloc .a-btn:hover,
@@ -436,8 +454,7 @@ nav .caret {
 }
 
 .mg-md {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin: 10px 0 20px 0;
 }
 
 .mg-lg {
@@ -458,10 +475,6 @@ nav .caret {
 .btn-d:focus {
     color: #FFF;
     background: rgba(0, 0, 0, .3);
-}
-
-button {
-    outline: none!important;
 }
 
 .btn-rd {
@@ -707,6 +720,8 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
 h3 {
@@ -753,7 +768,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #333333;
     padding: 40px 40px 40px 40px;
 }
 
@@ -780,12 +795,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #333333!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #333333!important;
 }
 
 .ltc-white {
