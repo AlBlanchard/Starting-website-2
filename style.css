@@ -141,7 +141,7 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
+.d-bloc a ,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -158,7 +158,7 @@ a:hover {
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
 .d-bloc a:hover .icon-sm,
-.d-bloc a:hover .icon-md,
+.d-bloc a:hover ,
 .d-bloc a:hover .icon-lg,
 .d-bloc a:hover .icon-xl,
 .d-bloc h1 a:hover,
@@ -490,7 +490,13 @@ nav .caret {
 
 .icon-md {
     font-size: 30px!important;
+    color: #333333;
 }
+
+.icon-md:hover {
+    color: #4D4D4D;
+}
+
 
 .icon-lg {
     font-size: 60px!important;
@@ -748,6 +754,14 @@ h4 {
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
+}
+
+.contrast-grey-text {
+    color: #333333;
+}
+
+.contrast-black-text {
+    color: #000000!important;
 }
 
 .white {
